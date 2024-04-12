@@ -1,0 +1,41 @@
+body{
+    background-image: url("images/istockphoto-1143929192-612x612.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin:10%
+}
+
+.buttonContainer{
+    text-align: center;
+}
+
+#label{
+    text-align: center;
+    display:block;
+    font-family:Helvetica;
+    font-size:10em;
+    color:whitesmoke;
+}
+
+.buttons{
+    color:black;
+    background-color: hsl(133, 100%, 50%);
+    border-radius: 10px;
+    padding: 8px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.25s
+}
+
+#increase:hover{
+    background-color: rgb(31, 180, 76);
+}
+
+#reset:hover{
+    background-color: rgb(31, 180, 76);
+}
+
+#decrease:hover{
+    background-color: rgb(31, 180, 76);
+}
